@@ -14,6 +14,7 @@ public class CopyJpgFileDemo {
 	public static void main(String[] args) throws IOException {
 		FileInputStream fis=new FileInputStream("/Users/wgl/Documents/1.pic_hd.jpg");
 		FileOutputStream fos=new FileOutputStream("/Users/wgl/Documents/1131/可爱.jpg");
+		//理论上比 一个字节一个字节读取的read() 快1025倍
 		byte[] bys=new byte[1024];
 		int b=0;
 		while ((b=fis.read(bys))!=-1) {
