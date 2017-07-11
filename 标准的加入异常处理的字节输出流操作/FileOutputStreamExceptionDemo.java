@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /*
- * 加入异常处理的字节输出流操作
+ * 标准的加入异常处理的字节输出流操作
  */
 public class FileOutputStreamExceptionDemo {
 	public static void main(String[] args) {
