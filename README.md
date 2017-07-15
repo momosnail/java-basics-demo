@@ -8,6 +8,6 @@
  - 7.标准的加入异常处理的字节输出流操作(==字节流Outputstream==)
  - 8.标准复制文件操作(==字节流，字符流 ，输入流，输出流==)
  - 9.字节流四种方式复制文件(==BufferedInputStream,BufferedOutputStream==)
- - 10.字符流5种复制文件方式
- - 11.拷贝多级目录下的文件夹及文件
- - 12.用Reader模拟BufferedReader的readLine()功能
+ - 10.字符流5种复制文件方式(==字符流==)
+ - 11.拷贝多级目录下的文件夹及文件（==递归 字节流 File==）
+ - 12.用Reader模拟BufferedReader的readLine()功能（==字符流==）
