@@ -13,3 +13,4 @@
  - 12.用Reader模拟BufferedReader的readLine()功能（==字符流==）
  - 13.自定义类模拟LineNumberReader的特有功能：获取每次读取数据的行号。两种方式：a.直接写。b.继承12的自定义类。
  - 14.随机访问流：RandomAccessFile
+ - 15.同步死锁示例代码。
