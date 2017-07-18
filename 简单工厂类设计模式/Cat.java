@@ -1,10 +1,11 @@
-package cn.itcast_01;
+package w_13;
 
-public class Cat extends Animal {
+public class Cat extends Animal{
 
 	@Override
 	public void eat() {
-		System.out.println("Ã¨³ÔÓã");
+		// TODO Auto-generated method stub
+		System.out.println("çŒ«ğŸ±åƒé±¼");
 	}
 
 }

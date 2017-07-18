@@ -1,25 +1,17 @@
-package cn.itcast_01;
+package w_13;
 
 public class AnimalFactory {
 
 	private AnimalFactory() {
+
 	}
 
-	// public static Dog createDog() {
-	// return new Dog();
-	// }
-	//
-	// public static Cat createCat() {
-	// return new Cat();
-	// }
-
-	public static Animal createAnimal(String type) {
-		if ("dog".equals(type)) {
+	public static Animal createAnimal(String animal) {
+		if ("dog".equals(animal)) {
 			return new Dog();
-		} else if ("cat".equals(type)) {
+		} else if ("cat".equals(animal)) {
 			return new Cat();
-		} else {
-			return null;
 		}
+		return null;
 	}
 }
