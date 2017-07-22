@@ -1,6 +1,7 @@
 package day03;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
@@ -22,8 +23,14 @@ public class ClientDemo {
 		//获取输出流
 		OutputStream os=s.getOutputStream();
 		os.write("我是客户端发来的消息!!!".getBytes());
-		os.close();
-		//释放资源
-		s.close();
+		
+		InputStream is=s.getInputStream();
+		byte[] bys=new byte[1024];
+		int len=is.read(bys);
+		String str=new String(bys,0,len);
+		System.out.println(str);
+//		os.close();
+//		//释放资源
+//		s.close();
 	}
 }
