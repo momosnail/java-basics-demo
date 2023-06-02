@@ -9,7 +9,7 @@ import java.net.InetAddress;
 
 public class SendDemo {
 	public static void main(String[] args) throws IOException {
-		//创建发送段socket对象
+		//创建发送端socket对象
 		DatagramSocket ds=new DatagramSocket();
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		String line=null;
